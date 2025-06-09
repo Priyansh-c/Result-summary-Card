@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+   *{
+font-family: Hanken Grotesk;
+   }
+  </style>
+  </head>
+  
+  <title>Results summary component</title>
+  
+</head>
+<body style="background-color: hsl(221, 100%, 96%);" , class="flex justify-center sm:items-center items-start h-screen " >
+<div class="container grid sm:grid-cols-2 w-[1000px] overflow-hidden max-w-4xl mx-auto  ">
+  <div style="background-color:hsl(252, 100%, 67%); padding: 40px;" class="visual  flex flex-col justify-center items-center rounded-2xl shadow-lg width-auto   ">
+  <h1 style="font-weight:700 ; font-weight: bold;" class="text-blue-200 text-xl mb-3 mt-6 ">Your result</h1>
+  <div style="background: linear-gradient(to top, hsla(241, 72%, 46%, 0), hsla(252, 72%, 46%, 1)); position: relative;" class="circle size-40 m-4 rounded-full shadow-lg flex flex-col justify-center items-center  ">
+    <h2 style="text-align: center; font-size:60px; color:white; font-weight:800;font-weight:bolder;">76</h2>
+    <p  style="font-weight:500 ; color:hsla(251, 55%, 33%, 0.662);position:absolute;" class="bottom-5" >of 100</p>
+  </div>
+  <h2 style="font-weight:600 ; font-weight: bold; font-size: xx-large; " class="text-white text-xl mb-3 mt-6">Great</h2>
+  <div class="pre ">
+    <pre style="font-weight: 500;" class="text-blue-200  m  ">You have scored higher than 65% of the
+               people who have taken 
+                          these tests.
+  </pre>
+</div>
+  
+  </div>
+  <div  class="summary bg-white visual  flex flex-col justify-center items-center rounded-2xl shadow-lg relative h-[500px] sm:h-auto">
+    <h1 class="absolute sm:top-16 sm:left-4 top-4 left-4 font-bold text-xl">Summary</h1>
+    <div class="rows  w-[300px]">
+      <div style="background-color:hsla(0, 100%, 67%, 0.1);color:hsla(0, 100%, 67%);" , class="Reaction flex gap-[15px] p-3  rounded-2xl mb-3 ">
+        <h2>⚡Reaction</h2>
+        <p style="margin-left: 110px;">
+          80 / 100
+        </p>
+      </div>
+      <div style="background-color:hsl(39, 100%, 56%,0.1); color:hsl(39, 100%, 56%);" , class="Memory flex gap-[15px] p-3 bg-gray-100 rounded-2xl mb-3 ">
+         <h2>🧠 Memory</h2>
+        <p style="margin-left: 110px;">92 / 100</p>
+      </div>
+      <div style="background-color:hsl(166, 100%, 37%,0.1);color:hsl(166, 100%, 37%);" , class="Verbal flex gap-[15px] p-3 bg-gray-100 rounded-2xl mb-3"> 
+        <h2>💬 Verbal</h2>
+        <p style="margin-left: 123px;">61 / 100</p>
+      </div>
+      <div style="background-color:hsl(234, 85%, 45%,0.1); color:hsl(234, 85%, 45%)" , class="Visual flex gap-[15px] p-3 bg-gray-100 rounded-2xl mb-3 ">
+         <h2>👁️ Visual</h2>
+        <p style="margin-left: 125px;">73 / 100</p>
+      </div>
+      
+
+    </div>
+   <button style="cursor: pointer;"
+  class="absolute bottom-2 left-1/2 sm:left-28 sm:bottom-4 transform -translate-x-1/2 sm:translate-x-0 
+         bg-blue-900 text-white hover:bg-blue-600 px-6 py-3 rounded-full w-1/2 text-center">
+  Continue
+</button>
+
+  </div>
+</div>
+ 
+  
+</body>
+</html>
