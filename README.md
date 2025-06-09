@@ -36,7 +36,7 @@ This is a responsive Results Summary Card built using **HTML** and **TailwindCSS
 
 ## 📸 Screenshot
 
-![Preview](Screenshot 2025-06-09 205134.png)
+![Preview](Screenshot.png)
 
 
 
