@@ -2,7 +2,7 @@
 
 This is a responsive Results Summary Card built using **HTML** and **TailwindCSS**, based on the Frontend Mentor challenge.
 
-> ✅ **Live Preview**: [Click here](https://your-username.github.io/your-repo-name/)  
+> ✅ **Live Preview**: [Click here](https://Priyansh-C.github.io/Result-summary-Card/)  
 > 🎯 **Challenge Source**: [Frontend Mentor – Results Summary Component](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV)
 
 ---
