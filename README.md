@@ -36,9 +36,9 @@ This is a responsive Results Summary Card built using **HTML** and **TailwindCSS
 
 ## 📸 Screenshot
 
-![Preview](screenshot.png)
+![Preview](screenshot .png)
 
-> ⚠️ Don’t forget to upload a `screenshot.png` in your repo root for this to display.
+> ⚠️ Don’t forget to upload a `sScreenshot 2025-06-09 205134.png` in your repo root for this to display.
 
 ---
 
